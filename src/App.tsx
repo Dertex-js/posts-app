@@ -2,14 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Routes from './routes/Routes.tsx'
 import Header from './UI/Header/Header.tsx'
 
-function App() {
+const App = () => (
+  <>
+    <Header/>
+    <Routes/>
+  </>
+)
 
-  return (
-    <>
-      <Header />
-      <Routes />
-    </>
-  )
-}
 
 export default App
